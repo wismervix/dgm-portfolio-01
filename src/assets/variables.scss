@@ -1,0 +1,97 @@
+// // ========================
+// // 🎨 VARIABLES
+// // ========================
+:root {
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+// $primary-color: #AFFF5E !important; //lime-green
+$primary: #d44cff;
+$secondary: #140338;
+// $secondary: #180546;
+$tertiary: #1b1530;
+$grey: #a8b2d1;
+$highlight: #ffca1d;
+$primary-alt: #55269b;
+$tertiary-light: #3a2d63;
+$primary-light: #9d5cff;
+
+// ========================
+// 🔁🧩 MIXINS (reusable style blocks)
+// ========================
+@mixin dynamic-text(
+  $weight: 600,
+  $size: 17px,
+  $color: #000,
+  $family: var(--font-mono),
+  $line-height: inherit
+) {
+  line-height: $line-height;
+  font-family: $family;
+  font-weight: $weight;
+  font-size: $size;
+  color: $color;
+}
+
+@mixin spread($gap: 0, $align-position: center, $direction: row, $wrap: wrap) {
+  gap: $gap;
+  display: flex;
+  flex-wrap: $wrap;
+  flex-direction: $direction;
+  align-items: $align-position;
+  justify-content: space-between;
+}
+
+@mixin centered(
+  $gap: 0,
+  $align-position: center,
+  $wrap: nowrap,
+  $direction: row
+) {
+  gap: $gap;
+  display: flex;
+  flex-wrap: $wrap;
+  justify-content: center;
+  flex-direction: $direction;
+  align-items: $align-position;
+}
+
+@mixin underline-link($color: $primary) {
+  color: $color;
+  position: relative;
+  display: inline-block;
+  transition: var(--transition);
+
+  &::after {
+    content: "";
+    width: 0px;
+    height: 1px;
+    opacity: 0.5;
+    bottom: -0.037em;
+    display: block;
+    position: relative;
+    background-color: $color;
+    transition: var(--transition);
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+@mixin translate-btn($color: $primary) {
+  transition: var(--transition);
+
+  &:hover {
+    box-shadow: 3px 3px 0 0 $color;
+    transform: translate(-4px, -4px);
+  }
+
+  &:active {
+    box-shadow: 0px 0px 0 0 $color;
+    transform: translate(-1px, -1px);
+  }
+}
