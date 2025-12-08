@@ -4,6 +4,7 @@
 
 //Add variables import
 @import './variables.scss';
+@import './animation.scss';
 
 *,
 *::before,
@@ -30,4 +31,61 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+section {
+  margin: 0 auto;
+  padding: 100px 0;
+
+  &:last-of-type .numbered-heading {
+    margin-bottom: 20px;
+    justify-content: center;
+    @include dynamic-text(400, 16px, $primary, var(--font-mono), 1.1);
+
+    &::before {
+      bottom: 0;
+    }
+
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.numbered-heading {
+  width: 100%;
+  display: flex;
+  position: relative;
+  white-space: nowrap;
+  margin: 10px 0 40px;
+  align-items: center;
+  @include dynamic-text(600, 28px, #ccd6f6, var(--font-sans));
+
+  @media (max-width: 450px) {
+    white-space: unset;
+  }
+
+  &::before {
+    bottom: -6px;
+    position: relative;
+    margin-right: 10px;
+    counter-increment: section;
+    content: '0' counter(section) '.';
+    @include dynamic-text(400, 16px, $primary, var(--font-mono));
+  }
+
+  &::after {
+    content: '';
+    top: 1px;
+    height: 1.5px;
+    width: 300px;
+    display: block;
+    margin-left: 20px;
+    position: relative;
+    background-color: $tertiary-light;
+
+    @media (max-width: 850px) {
+      display: none;
+    }
+  }
 }

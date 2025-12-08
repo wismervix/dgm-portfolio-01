@@ -1,6 +1,9 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
 import SvgIcon from './components/SvgIcons.vue'
+import HeroSection from './components/HeroSection.vue'
+import LeftSticky from './components/LeftSticky.vue'
+import RightSticky from './components/RightSticky.vue'
+import AboutSection from './components/AboutSection.vue'
 </script>
 
 <template>
@@ -8,6 +11,7 @@ import SvgIcon from './components/SvgIcons.vue'
   <div class="cursor-glow cursor-glow-inner"></div>
   <div class="cursor-glow cursor-glow-spot"></div>
   <div class="page-wrapper">
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg custom-navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><SvgIcon name="logoIcon" class="logo-svg" /></a>
@@ -33,85 +37,23 @@ import SvgIcon from './components/SvgIcons.vue'
       </div>
     </nav>
 
-    <RouterView />
+    <!-- Left Sticky -->
+    <LeftSticky />
+
+    <!-- Right Sticky -->
+    <RightSticky />
+
+    <main>
+      <!-- Hero  -->
+      <HeroSection />
+
+      <!-- About -->
+      <AboutSection />
+    </main>
   </div>
 </template>
 
 <style scoped lang="scss">
-.cursor-glow {
-  position: fixed;
-  pointer-events: none;
-  z-index: 9999;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.cursor-glow-outer {
-  width: 900px;
-  height: 900px;
-  background: radial-gradient(
-    circle at center,
-    rgba(212, 76, 255, 0.08) 0%,
-    /* Actually visible now */ rgba(157, 92, 255, 0.05) 25%,
-    /* Can see it */ rgba(212, 76, 255, 0.02) 50%,
-    transparent 70%
-  );
-  filter: blur(35px);
-  mix-blend-mode: screen;
-}
-
-.cursor-glow-inner {
-  width: 700px;
-  height: 700px;
-  background: radial-gradient(
-    circle at center,
-    rgba(212, 76, 255, 0.12) 0%,
-    /* Noticeable but subtle */ rgba(157, 92, 255, 0.06) 35%,
-    transparent 65%
-  );
-  filter: blur(20px);
-  mix-blend-mode: overlay;
-}
-
-.cursor-glow-spot {
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(
-    circle at center,
-    rgba(255, 202, 29, 0.15) 0%,
-    /* Yellow actually shows */ rgba(212, 76, 255, 0.08) 50%,
-    transparent 75%
-  );
-  filter: blur(12px);
-  mix-blend-mode: lighten;
-}
-
-/* Show on hover */
-body:hover .cursor-glow {
-  opacity: 0.3;
-}
-
-/* Subtle pulse animation */
-@keyframes cursorPulse {
-  0%,
-  100% {
-    transform: translate(-50%, -50%) scale(1);
-  }
-  50% {
-    transform: translate(-50%, -50%) scale(1.03);
-  }
-}
-
-.cursor-glow-outer {
-  animation: cursorPulse 4s ease-in-out infinite;
-}
-
-.cursor-glow-inner {
-  animation: cursorPulse 3s ease-in-out infinite 0.2s;
-}
-
 .page-wrapper {
   background-color: $secondary;
 
@@ -132,7 +74,7 @@ body:hover .cursor-glow {
       &:hover {
         --start: 1; /* custom property becomes the trigger */
 
-        :v-deep(svg.logo-svg) {
+        :deep(svg.logo-svg) {
           transform: scale(1.05);
           animation: flip3D 1.5s ease-in-out calc(var(--start) * 1.6s) forwards;
 
@@ -160,7 +102,7 @@ body:hover .cursor-glow {
           }
         }
       }
-      svg.logo-svg {
+      :deep(svg.logo-svg) {
         width: 55px;
         height: 55px;
         cursor: pointer;
@@ -241,6 +183,23 @@ body:hover .cursor-glow {
           }
         }
       }
+    }
+  }
+
+  main {
+    width: 100%;
+    padding: 0 100px;
+    min-height: 100vh;
+    max-width: 1600px;
+    counter-reset: section;
+    @media (max-width: 1080px) {
+      padding: 0px 70px;
+    }
+    @media (max-width: 768px) {
+      padding: 0px 60px;
+    }
+    @media (max-width: 480px) {
+      padding: 0px 35px;
     }
   }
 }
