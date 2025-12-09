@@ -4,6 +4,9 @@ import HeroSection from './components/HeroSection.vue'
 import LeftSticky from './components/LeftSticky.vue'
 import RightSticky from './components/RightSticky.vue'
 import AboutSection from './components/AboutSection.vue'
+import ExperienceSection from './components/ExperienceSection.vue'
+import ServicesSection from './components/ServicesSection.vue'
+import ScrollSection from './components/ScrollSection.vue'
 </script>
 
 <template>
@@ -37,18 +40,20 @@ import AboutSection from './components/AboutSection.vue'
       </div>
     </nav>
 
-    <!-- Left Sticky -->
     <LeftSticky />
 
-    <!-- Right Sticky -->
     <RightSticky />
 
     <main>
-      <!-- Hero  -->
       <HeroSection />
 
-      <!-- About -->
       <AboutSection />
+
+      <ExperienceSection />
+
+      <ServicesSection />
+
+      <ScrollSection />
     </main>
   </div>
 </template>
