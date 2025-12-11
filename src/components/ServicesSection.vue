@@ -231,9 +231,8 @@ import SvgIcons from './SvgIcons.vue'
 
       .e-service {
         height: 100%;
-        padding-top: 1rem;
-        padding-left: 25px;
         position: relative;
+        padding:1rem 15px 20px 25px;
         transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
         &::before {

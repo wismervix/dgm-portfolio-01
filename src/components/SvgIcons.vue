@@ -228,6 +228,50 @@ const iconLibrary: Record<string, string> = {
               fill="#a8b2d1"
             />
           </svg>`,
+  extLink: `<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      role="img"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-external-link"
+                    >
+                      <title>External Link</title>
+                      <path
+                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                      ></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line></svg>`,
+  star: `<svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-star"
+          >
+            <title>Star</title>
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+            ></polygon></svg>`,
+  gitFork: `<svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-git-branch"
+          >
+            <title>Git Fork</title>
+            <line x1="6" y1="3" x2="6" y2="15"></line>
+            <circle cx="18" cy="6" r="3"></circle>
+            <circle cx="6" cy="18" r="3"></circle>
+            <path d="M18 9a9 9 0 0 1-9 9"></path></svg>`,
   vacant: `
             <svg width="72" height="73" viewBox="0 0 72 73" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M36 73C55.8823 73 72 56.6584 72 36.5C72 16.3416 55.8823 0 36 0C16.1178 0 0 16.3416 0 36.5C0 56.6584 16.1178 73 36 73Z" fill="#00BF63"/>
@@ -325,6 +369,7 @@ const svgStyle = computed<CSSProperties>(() => {
 })
 </script>
 
+<!-- <style scoped> -->
 <style scoped>
 .svg-icon svg {
   display: inline-flex;
@@ -352,7 +397,12 @@ svg {
   color: inherit;
 }
 
-.svg-icon :deep(svg) {
+/* .svg-icon :deep(svg) {
+  display: block;
+  width: 100%;
+  height: 100%;
+} */
+.svg-icon svg {
   display: block;
   width: 100%;
   height: 100%;

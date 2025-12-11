@@ -89,7 +89,7 @@ import SvgIcon from './SvgIcons.vue'
           transform: translateY(-3px);
         }
 
-        svg {
+        :deep(svg) {
           width: 20px;
           height: 20px;
         }
