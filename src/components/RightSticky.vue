@@ -1,7 +1,7 @@
 <template>
   <div class="right-sticky">
     <div class="email-wrapper">
-      <a href="mailto:etangdgm001@gmail.com">etangdgm001@gmail.com</a>
+      <a href="mailto:etangdgm001@gmail.com"> etangdgm001@gmail.com </a>
     </div>
   </div>
 </template>

@@ -218,3 +218,12 @@ body:hover .cursor-glow {
 .cursor-glow-inner {
   animation: cursorPulse 3s ease-in-out infinite 0.2s;
 }
+
+@keyframes waveMove {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -300px 0;
+  }
+}

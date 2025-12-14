@@ -12,7 +12,7 @@
           </p>
           <p>
             Fast-forward to today, and I’ve had the privilege of working at
-            <a href="https://us.mullenlowe.com/" rel="noopener noreferrer" target="_blank"
+            <a href="https://ozitechgroup.com/" rel="noopener noreferrer" target="_blank"
               >an advertising agency</a
             >,
             <a href="https://starry.com/" rel="noopener noreferrer" target="_blank">a start-up</a>,
@@ -70,7 +70,8 @@
 
     .left-img-wrapper {
       width: 100%;
-      max-width: 300px;
+      max-width: 230px;
+      // max-width: 300px;
       position: relative;
       border-radius: 4px;
       border: 2px solid $primary;
@@ -79,10 +80,12 @@
         background 0.3s ease;
 
       .img-bg {
-        padding-top: 100%;
+        // padding-top: 100%;
+        padding-top: 130%;
         position: relative;
         border-radius: 4px;
-        background: url('@/assets/images/portfolio-profile.avif') center / 100% 100%;
+        background: url('@/assets/images/d_g_m.jpg') center / 100% 100%;
+        // background: url('@/assets/images/portfolio-profile.avif') center / 100% 100%;
 
         transform: translate(-14px, -14px);
         transition:

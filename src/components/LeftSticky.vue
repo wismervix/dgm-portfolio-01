@@ -2,18 +2,13 @@
   <div class="left-sticky">
     <ul>
       <li>
-        <a
-          href="https://v4.brittanychiang.com/"
-          aria-label="GitHub"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://github.com/wismervix" aria-label="GitHub" target="_blank" rel="noreferrer">
           <SvgIcon name="gitHub" />
         </a>
       </li>
       <li>
         <a
-          href="https://www.instagram.com/bchiang7"
+          href="https://www.instagram.com/d.g.m464"
           aria-label="Instagram"
           target="_blank"
           rel="noreferrer"
@@ -22,25 +17,31 @@
         </a>
       </li>
       <li>
-        <a href="https://twitter.com/bchiang7" aria-label="Twitter" target="_blank" rel="noreferrer"
-          >
-          <SvgIcon name="twitter"/>
+        <!-- href="https://twitter.com/bchiang7" -->
+        <a
+          href="https://x.com/daGreatMervix"
+          aria-label="Twitter"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <SvgIcon name="twitter" />
         </a>
       </li>
       <li>
+        <!-- href="https://www/.linkedin.com/in/bchiang7" -->
         <a
-          href="https://www.linkedin.com/in/bchiang7"
+          href="https://facebook.com/daonly.dgm"
           aria-label="Linkedin"
           target="_blank"
           rel="noreferrer"
-          >
-          <SvgIcon name="linkedIn"/>
+        >
+          <SvgIcon name="linkedIn" />
         </a>
       </li>
       <li>
-        <a href="https://codepen.io/bchiang7" aria-label="Codepen" target="_blank" rel="noreferrer"
-          >
-          <SvgIcon name="codepen"/>
+        <!-- <a href="https://codepen.io/bchiang7" aria-label="Codepen" target="_blank" rel="noreferrer"> -->
+        <a href="https://github.com/wismervix" aria-label="Codepen" target="_blank" rel="noreferrer">
+          <SvgIcon name="codepen" />
         </a>
       </li>
     </ul>

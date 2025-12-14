@@ -85,10 +85,18 @@ import SvgIcons from './SvgIcons.vue'
     &::after {
       content: '';
       width: 100%;
-      height: 3px;
+      // height: 3px;
       display: block;
       margin-top: 5px;
-      background-color: $primary;
+      // background-color: $primary;
+      height: 20px;
+
+      background-image: url("data:image/svg+xml,%3Csvg%20viewBox='0%200%20300%2020'%20xmlns='http://www.w3.org/2000/svg'%3E%3Cpath%20d='M0%2010%20Q25%205%2050%2010%20T100%2010%20T150%2010%20T200%2010%20T250%2010%20T300%2010'%20stroke='%239d5cff'%20stroke-width='5'%20fill='none'/%3E%3C/svg%3E");
+
+      background-position: 0 0;
+      background-repeat: repeat-x;
+      background-size: 300px 20px;
+      animation: waveMove 4s linear infinite;
     }
   }
 
@@ -232,7 +240,7 @@ import SvgIcons from './SvgIcons.vue'
       .e-service {
         height: 100%;
         position: relative;
-        padding:1rem 15px 20px 25px;
+        padding: 1rem 15px 20px 25px;
         transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
         &::before {

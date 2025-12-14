@@ -18,7 +18,9 @@
           <a class="nav-link" href="#projects">Projects</a>
           <a class="nav-link" href="#contact">Contact</a>
           <!-- <a class="nav-link btn" href="">Resume</a> -->
-          <button class="nav-link btn">Resume</button>
+          <a class="nav-link btn" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            Resume
+          </a>
         </div>
       </div>
     </div>
