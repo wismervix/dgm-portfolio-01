@@ -18,12 +18,7 @@
       </li>
       <li>
         <!-- href="https://twitter.com/bchiang7" -->
-        <a
-          href="https://x.com/daGreatMervix"
-          aria-label="Twitter"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://x.com/daGreatMervix" aria-label="Twitter" target="_blank" rel="noreferrer">
           <SvgIcon name="twitter" />
         </a>
       </li>
@@ -40,7 +35,12 @@
       </li>
       <li>
         <!-- <a href="https://codepen.io/bchiang7" aria-label="Codepen" target="_blank" rel="noreferrer"> -->
-        <a href="https://github.com/wismervix" aria-label="Codepen" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/wismervix"
+          aria-label="Codepen"
+          target="_blank"
+          rel="noreferrer"
+        >
           <SvgIcon name="codepen" />
         </a>
       </li>

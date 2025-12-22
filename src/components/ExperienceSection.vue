@@ -67,27 +67,32 @@
         <div class="page-bg">
           <div class="content-wrapper">
             <h3 class="mb-1">
-              <span>Lead Engineer </span>
+              <span>Front-end Engineer </span>
               <span><a href="">@ Ozitech</a></span>
             </h3>
+
             <p class="range">May 2018 - Present</p>
+
             <ul>
               <li class="hover-fade">
-                Deliver high-quality, robust production code for a diverse array of projects for
-                clients including Harvard Business School, Everytown for Gun Safety, Pratt
-                Institute, Koala Health, Vanderbilt University, The 19th News, and more
+                Develop and maintain large-scale web applications, dashboards, trading platforms,
+                CRMs, and automation tools.
               </li>
               <li class="hover-fade">
-                Work alongside creative directors to lead the research, development, and
-                architecture of technical solutions to fulfill business requirements
+                Collaborate with backend teams, UI/UX teams, and product managers to deliver
+                pixel-perfect, responsive UI components.
               </li>
               <li class="hover-fade">
-                Collaborate with designers, project managers, and other engineers to transform
-                creative concepts into production realities for clients and stakeholders
+                Build reusable components using Vue, Angular, Sass, Tailwind, and Laravel + Inertia
+                for production-ready environments.
               </li>
               <li class="hover-fade">
-                Provide leadership within engineering department through close collaboration,
-                knowledge shares, and mentorship
+                Integrate APIs, implemented real-time UI updates, and optimize complex frontend
+                logic for speed and clarity.
+              </li>
+              <li class="hover-fade">
+                Contribute to dozens of projects back-to-back with strong reliability and rapid
+                execution under tight delivery schedules.
               </li>
             </ul>
           </div>
@@ -97,13 +102,17 @@
         <h3 class="col-title">Skills:</h3>
 
         <div class="transition-all">
-          <h4 class="c-list-title"><span class="sprite tools"></span>Tools</h4>
+          <h4 class="c-list-title"><span class="sprite tools"><i class="fa-solid fa-screwdriver-wrench"></i></span>Tools</h4>
           <ul class="skills-list">
             <li>Git + GitHub</li>
             <li>Command Line</li>
             <li>Chrome DevTools</li>
             <li>Bitbucket</li>
             <li>Bash</li>
+            <li>Docker</li>
+            <li>Vercel</li>
+            <li>Xampp</li>
+            <li>Firebase</li>
             <li>Powershell</li>
           </ul>
         </div>
@@ -111,7 +120,7 @@
           <h4 class="c-list-title"><span class="sprite knowledge"></span>Languages</h4>
           <ul class="skills-list">
             <li>JavaScript (ES6+)</li>
-            <li>React</li>
+            <li>PhP</li>
             <li>Node.js</li>
             <li>TypeScript</li>
             <li>CSS/Sass</li>
@@ -135,9 +144,11 @@
             <li>React</li>
             <li>Angular</li>
             <li>Vue.js</li>
-            <li>Node</li>
+            <li>Inertia</li>
+            <li>Laravel</li>
             <li>WordPress</li>
             <li>Bootstrap</li>
+            <li>Tailwind</li>
           </ul>
         </div>
       </div>
@@ -207,7 +218,8 @@
 
       &.tools {
         background-size: 90%;
-        background-image: url(..@/assets/icons/repair-tools.png);
+        background-image: url(..@/assets/icons/wrencher.png);
+        // background-image: url(..@/assets/icons/repair-tools.png);
       }
 
       &.design {
@@ -256,6 +268,10 @@
     margin-bottom: 10px;
     padding: 10px 10px 0;
     transition: all 0.4s ease;
+
+    &:first-of-type{
+      padding-top: 0 !important;
+    }
 
     &:hover {
       transform: scale(1.05);
@@ -316,14 +332,14 @@
 
       li {
         position: relative;
-        padding: 10px 20px;
+        padding: 10px 10px 10px 30px;
         transition: transform 0.4s ease;
 
         @include dynamic-text(400, 16px, #8892b0);
 
         &::before {
           content: '▹';
-          left: 0px;
+          left: 10px;
           color: $primary;
           position: absolute;
         }

@@ -23,12 +23,12 @@ interface SvgIconProps {
 
 const props = withDefaults(defineProps<SvgIconProps>(), {
   size: undefined,
-//   color: 'currentColor',
+  //   color: 'currentColor',
   color: 'currentColor',
   width: undefined,
   height: undefined,
   fill: 'currentColor',
-//   fill: undefined,
+  //   fill: undefined,
   stroke: undefined,
   strokeWidth: undefined,
   rotate: undefined,
@@ -102,22 +102,23 @@ const iconLibrary: Record<string, string> = {
             <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
             <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
           </svg>`,
-  twitter: `<svg
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-twitter"
-          >
-            <title>Twitter</title>
-            <path
-              d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
-            ></path>
-          </svg>`,
+  // twitter: `<svg
+  //           xmlns="http://www.w3.org/2000/svg"
+  //           role="img"
+  //           viewBox="0 0 24 24"
+  //           fill="none"
+  //           stroke="currentColor"
+  //           stroke-width="2"
+  //           stroke-linecap="round"
+  //           stroke-linejoin="round"
+  //           class="feather feather-twitter"
+  //         >
+  //           <title>Twitter</title>
+  //           <path
+  //             d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+  //           ></path>
+  //         </svg>`,
+  twitter: `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><title>X (Fka Twitter)</title><path fill="currentColor" d="M17.751 2.96h3.067l-6.7 7.659L22 21.039h-6.172l-4.833-6.32l-5.531 6.32h-3.07l7.167-8.19L2 2.96h6.328l4.37 5.777zm-1.076 16.243h1.7L7.404 4.7H5.58z" stroke-width="0.5" stroke="currentColor"/></svg>`,
   linkedIn: `<svg
             xmlns="http://www.w3.org/2000/svg"
             role="img"
@@ -272,6 +273,8 @@ const iconLibrary: Record<string, string> = {
             <circle cx="18" cy="6" r="3"></circle>
             <circle cx="6" cy="18" r="3"></circle>
             <path d="M18 9a9 9 0 0 1-9 9"></path></svg>`,
+  bitBucket: `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 512 512"><path fill="currentColor" d="M483.13 32.23a20 20 0 0 0-2.54-.23h-449C23 31.88 16.12 38.88 16 47.75a11.4 11.4 0 0 0 .23 2.8l65.3 411.25a22.52 22.52 0 0 0 7 12.95A20 20 0 0 0 102 480h313.18a15.45 15.45 0 0 0 15.34-13.42l38.88-247.91H325.19l-18.46 112H205.21l-25.73-148h295.58l20.76-132c1.27-8.75-4.38-17.04-12.69-18.44" stroke-width="13" stroke="currentColor"/></svg>`,
+  animatedLine: `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><rect width="2.8" height="12" x="1" y="6" fill="currentColor" stroke-width="0.5" stroke="currentColor"><animate id="SVGLQdHQe4p" attributeName="y" begin="0;SVGg3vsIeGm.end-0.1s" calcMode="spline" dur="0.6s" keySplines=".36,.61,.3,.98;.36,.61,.3,.98" values="6;1;6"/><animate attributeName="height" begin="0;SVGg3vsIeGm.end-0.1s" calcMode="spline" dur="0.6s" keySplines=".36,.61,.3,.98;.36,.61,.3,.98" values="12;22;12"/></rect><rect width="2.8" height="12" x="5.8" y="6" fill="currentColor" stroke-width="0.5" stroke="currentColor"><animate attributeName="y" begin="SVGLQdHQe4p.begin+0.1s" calcMode="spline" dur="0.6s" keySplines=".36,.61,.3,.98;.36,.61,.3,.98" values="6;1;6"/><animate attributeName="height" begin="SVGLQdHQe4p.begin+0.1s" calcMode="spline" dur="0.6s" keySplines=".36,.61,.3,.98;.36,.61,.3,.98" values="12;22;12"/></rect><rect width="2.8" height="12" x="10.6" y="6" fill="currentColor" stroke-width="0.5" stroke="currentColor"><animate attributeName="y" begin="SVGLQdHQe4p.begin+0.2s" calcMode="spline" dur="0.6s" keySplines=".36,.61,.3,.98;.36,.61,.3,.98" values="6;1;6"/><animate attributeName="height" begin="SVGLQdHQe4p.begin+0.2s" calcMode="spline" dur="0.6s" keySplines=".36,.61,.3,.98;.36,.61,.3,.98" values="12;22;12"/></rect><rect width="2.8" height="12" x="15.4" y="6" fill="currentColor" stroke-width="0.5" stroke="currentColor"><animate attributeName="y" begin="SVGLQdHQe4p.begin+0.3s" calcMode="spline" dur="0.6s" keySplines=".36,.61,.3,.98;.36,.61,.3,.98" values="6;1;6"/><animate attributeName="height" begin="SVGLQdHQe4p.begin+0.3s" calcMode="spline" dur="0.6s" keySplines=".36,.61,.3,.98;.36,.61,.3,.98" values="12;22;12"/></rect><rect width="2.8" height="12" x="20.2" y="6" fill="currentColor" stroke-width="0.5" stroke="currentColor"><animate id="SVGg3vsIeGm" attributeName="y" begin="SVGLQdHQe4p.begin+0.4s" calcMode="spline" dur="0.6s" keySplines=".36,.61,.3,.98;.36,.61,.3,.98" values="6;1;6"/><animate attributeName="height" begin="SVGLQdHQe4p.begin+0.4s" calcMode="spline" dur="0.6s" keySplines=".36,.61,.3,.98;.36,.61,.3,.98" values="12;22;12"/></rect></svg>`,
   vacant: `
             <svg width="72" height="73" viewBox="0 0 72 73" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M36 73C55.8823 73 72 56.6584 72 36.5C72 16.3416 55.8823 0 36 0C16.1178 0 0 16.3416 0 36.5C0 56.6584 16.1178 73 36 73Z" fill="#00BF63"/>

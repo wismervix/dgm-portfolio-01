@@ -1,12 +1,35 @@
 <template>
   <div class="right-sticky">
     <div class="email-wrapper">
-      <a href="mailto:etangdgm001@gmail.com"> etangdgm001@gmail.com </a>
+      <!-- <a href="mailto:etangdgm001@gmail.com"> etangdgm001@gmail.com </a> -->
+      <a
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=etangdgm001@gmail.com"
+        target="_blank"
+        rel="noopener"
+        title="Email me"
+      >
+        etangdgm001@gmail.com
+      </a>
+
+      <!-- <a href="#" @click.prevent="emailMe"> etangdgm001@gmail.com </a> -->
     </div>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+// const email = 'etangdgm001@gmail.com'
+
+// function emailMe() {
+//   const gmailUrl = `mailto:${email}`
+
+//   const win = window.open(gmailUrl, '_blank')
+
+//   // Fallback if popup blocked or Gmail fails
+//   if (!win) {
+//     window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}`
+//   }
+// }
+</script>
 
 <style scoped lang="scss">
 .right-sticky {

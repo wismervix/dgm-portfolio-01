@@ -3,12 +3,13 @@
     <h2 class="numbered-heading">What’s Next?</h2>
     <h2 class="title">Get In Touch</h2>
     <p class="m-0">
-      Although I’m not currently looking for any new opportunities, my inbox is always open. Whether
-      you have a question or just want to say hi, I’ll try my best to get back to you!
+      I'm actively on the job market and excited about new opportunities. Whether you're hiring or
+      know someone who is, feel free to reach out — I'm eager to connect and explore potential
+      roles!
     </p>
     <a
       class="contact btn"
-      href="mailto:brittany.chiang@gmail.com"
+      href="https://mail.google.com/mail/?view=cm&fs=1&to=etangdgm001@gmail.com"
       rel="noopener noreferrer"
       target="_blank"
       >Say Hello</a
@@ -21,6 +22,7 @@
 <style scoped lang="scss">
 #contact {
   max-width: 600px;
+  padding: 0 0 100px;
   text-align: center;
   margin: 0 auto 100px;
 

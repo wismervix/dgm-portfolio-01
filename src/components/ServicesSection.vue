@@ -13,9 +13,10 @@
                 <div class="service-name">Web Dev</div>
               </div>
               <p class="service-content">
-                Using HTML, CSS, and JavaScript with pre-processors and build tools such as Sass and
-                Grunt, I have a passion for developing pixel-perfect websites and apps while
-                maintaining a semantic, modular, and DRY code base.
+                I build fast, reliable, and scalable web applications using modern frontend
+                technologies. My focus is on writing clean, maintainable code while translating
+                designs into responsive, high-quality user experiences that work seamlessly across
+                devices.
               </p>
             </div>
           </div>
@@ -27,12 +28,9 @@
                 <div class="service-name">UI/UX Design</div>
               </div>
               <p class="service-content">
-                <b class="fst-italic"
-                  >"A user interface is like a joke. If you have to explain it, it's not that
-                  good."</b
-                >
-                I strive to develop and implement responsive and aesthetically pleasing interfaces
-                for websites and apps that adapt to any type of device, platform, or browser.
+                <b class="fst-italic">“Great UI shouldn't need a manual.”</b>
+                I focus on designing intuitive, user-friendly interfaces that balance aesthetics
+                with usability, ensuring smooth and consistent experiences across devices.
               </p>
             </div>
           </div>
@@ -44,10 +42,9 @@
                 <div class="service-name">Digital Marketing</div>
               </div>
               <p class="service-content">
-                Driving growth through data-driven strategies across SEO, social media, and content
-                marketing. I specialize in creating compelling campaigns that increase brand
-                visibility, engage audiences, and deliver measurable ROI through analytics and
-                conversion optimization.
+                I drive digital growth through strategic SEO, social media, and content marketing.
+                By combining audience insights with performance tracking, I help brands improve
+                visibility, engagement, and conversion outcomes across digital channels.
               </p>
             </div>
           </div>
@@ -59,9 +56,9 @@
                 <div class="service-name">Graphic Design</div>
               </div>
               <p class="service-content">
-                Creating visually stunning designs that communicate your brand's story effectively.
-                From logos and branding to marketing materials and social media graphics, I craft
-                compelling visual identities that capture attention and leave lasting impressions.
+                I create clean, purposeful visuals that support your brand’s identity. Whether it’s
+                branding assets, marketing materials, or digital graphics, my goal is to communicate
+                ideas clearly while leaving a strong visual impression.
               </p>
             </div>
           </div>

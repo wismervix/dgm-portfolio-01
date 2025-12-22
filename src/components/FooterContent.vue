@@ -2,18 +2,13 @@
   <div class="platforms">
     <ul>
       <li>
-        <a
-          href="https://v4.brittanychiang.com/"
-          aria-label="GitHub"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://github.com/wismervix" aria-label="GitHub" target="_blank" rel="noreferrer">
           <SvgIcons name="gitHub" />
         </a>
       </li>
       <li>
         <a
-          href="https://www.instagram.com/bchiang7"
+          href="https://www.instagram.com/d.g.m464"
           aria-label="Instagram"
           target="_blank"
           rel="noreferrer"
@@ -22,18 +17,13 @@
         </a>
       </li>
       <li>
-        <a
-          href="https://twitter.com/bchiang7"
-          aria-label="Twitter"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://x.com/daGreatMervix" aria-label="Twitter" target="_blank" rel="noreferrer">
           <svg-icons name="twitter" />
         </a>
       </li>
       <li>
         <a
-          href="https://www.linkedin.com/in/bchiang7"
+          href="https://facebook.com/daonly.dgm"
           aria-label="Linkedin"
           target="_blank"
           rel="noreferrer"
@@ -42,7 +32,12 @@
         </a>
       </li>
       <li>
-        <a href="https://codepen.io/bchiang7" aria-label="Codepen" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/wismervix"
+          aria-label="Codepen"
+          target="_blank"
+          rel="noreferrer"
+        >
           <svg-icons name="codepen" />
         </a>
       </li>
@@ -51,7 +46,7 @@
   <div class="dever-info">
     <a href="">
       <div>Designed & Built by Victory Okon</div>
-      
+
       <div class="github-stats">
         <span>
           <svg-icons name="star" />

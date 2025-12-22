@@ -5,41 +5,57 @@
       <div class="col-lg-8 col-md-7">
         <div class="text-cont">
           <p>
-            Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-            interest in web development started back in 2012 when I decided to try editing custom
-            Tumblr themes — turns out hacking together a custom reblog button taught me a lot about
-            HTML & CSS!
+            Hi, I’m Victory — a frontend developer who enjoys using technology to solve real
+            problems and create clean, user-focused web experiences.
           </p>
+          <br />
+
           <p>
-            Fast-forward to today, and I’ve had the privilege of working at
-            <a href="https://ozitechgroup.com/" rel="noopener noreferrer" target="_blank"
-              >an advertising agency</a
-            >,
-            <a href="https://starry.com/" rel="noopener noreferrer" target="_blank">a start-up</a>,
-            <a href="https://www.apple.com/" rel="noopener noreferrer" target="_blank"
-              >a huge corporation</a
-            >, and
-            <a href="https://scout.camd.northeastern.edu/" rel="noopener noreferrer" target="_blank"
-              >a student-led design studio</a
-            >. My main focus these days is building accessible, inclusive products and digital
-            experiences at
-            <a href="https://upstatement.com/" rel="noopener noreferrer" target="_blank"
-              >Upstatement</a
-            >
-            for a variety of clients.
+            I began my journey in late 2023 as a trainee at
+            <a href="https://ozitechgroup.com/" target="_blank" rel="noopener noreferrer">Ozitech</a
+            >, where I built strong fundamentals and worked on real-world projects. I transitioned
+            into a Frontend Developer role in July 2024 and have since contributed to multiple
+            production-ready applications across different industries.
           </p>
-          <!-- <p>
-                  Here are a few technologies I’ve been working with recently:
-                </p> -->
+          <br />
+
+          <p>
+            I specialize in
+            <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">
+              <strong>Vue</strong>
+            </a>
+            and
+            <a href="https://angular.dev/" target="_blank" rel="noopener noreferrer">
+              <strong>Angular</strong> </a
+            >, and regularly work with
+            <strong>
+              <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer">Laravel</a>
+              +
+              <a href="https://inertiajs.com/" target="_blank" rel="noopener noreferrer">
+                Inertia
+              </a> </strong
+            >,
+            <a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
+              <strong>Sass</strong> </a
+            >,
+            <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">
+              <strong>Tailwind</strong> </a
+            >, and
+            <a href="https://wordpress.com/" target="_blank" rel="noopener noreferrer">
+              <strong>WordPress</strong> </a
+            >. I collaborate closely using
+            <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer">Figma</a>
+            and ship projects with tools like
+            <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer"> Git </a>,
+            <a href="https://www.apachefriends.org/" target="_blank" rel="noopener noreferrer"
+              >Xampp</a
+            >,
+            <a href="https://firebase.google.com/" target="_blank" rel="noopener noreferrer">
+              Firebase </a
+            >, and
+            <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer"> Vercel </a>.
+          </p>
         </div>
-        <!-- <ul class="skills-list">
-                <li>JavaScript (ES6+)</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>TypeScript</li>
-                <li>Eleventy</li>
-                <li>WordPress</li>
-              </ul> -->
       </div>
       <div class="col-lg-4 col-md-5">
         <div class="left-img-wrapper">
