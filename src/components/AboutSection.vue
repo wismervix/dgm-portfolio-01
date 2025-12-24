@@ -43,7 +43,7 @@
             >, and
             <a href="https://wordpress.com/" target="_blank" rel="noopener noreferrer">
               <strong>WordPress</strong> </a
-            >. I collaborate closely using
+            >. I've collaborated on multiple client projects using
             <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer">Figma</a>
             and ship projects with tools like
             <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer"> Git </a>,

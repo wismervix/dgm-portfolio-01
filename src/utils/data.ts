@@ -1,4 +1,4 @@
-import halcyonImage from '@/assets/images/project-1.avif'
+// import halcyonImage from '@/assets/images/project-1.avif'
 import goldParkTradingImage from '@/assets/images/gold_park_trading_2.png'
 import unityCoinImage from '@/assets/images/unity_coin.png'
 import reliaCRMImageInverted from '@/assets/images/reliaCRM_inverted.png'
@@ -27,49 +27,49 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  {
-    id: 1,
-    title: {
-      name: 'Halcyon Theme',
-      route: 'https://halcyon-theme.netlify.com/',
-    },
-    others: false,
-    image: halcyonImage,
-    description:
-      'A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on',
-    technologies: ['VS Code', 'Sublime Text', 'Atom', 'iTerm2', 'Hyper'],
-    links: [
-      {
-        title: 'Visual Studio Marketplace',
-        route: 'https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode',
-      },
-      {
-        title: 'Package Control',
-        route: 'https://packagecontrol.io/packages/Halcyon%20Theme',
-      },
-      {
-        title: 'Atom Package Manager',
-        route: 'https://atom.io/themes/halcyon-syntax',
-      },
-      {
-        title: 'npm',
-        route: 'https://www.npmjs.com/package/hyper-halcyon-theme',
-      },
-    ],
-    platformLinks: [
-      {
-        title: 'GitHub Link',
-        icon: 'gitHub',
-        route: 'https://github.com/bchiang7/halcyon-site',
-      },
-      {
-        title: 'External Link',
-        icon: 'extLink',
-        route: 'https://halcyon-theme.netlify.com/',
-      },
-    ],
-    year: 2024,
-  },
+  // {
+  //   id: 1,
+  //   title: {
+  //     name: 'Halcyon Theme',
+  //     route: 'https://halcyon-theme.netlify.com/',
+  //   },
+  //   others: false,
+  //   image: halcyonImage,
+  //   description:
+  //     'A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on',
+  //   technologies: ['VS Code', 'Sublime Text', 'Atom', 'iTerm2', 'Hyper'],
+  //   links: [
+  //     {
+  //       title: 'Visual Studio Marketplace',
+  //       route: 'https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode',
+  //     },
+  //     {
+  //       title: 'Package Control',
+  //       route: 'https://packagecontrol.io/packages/Halcyon%20Theme',
+  //     },
+  //     {
+  //       title: 'Atom Package Manager',
+  //       route: 'https://atom.io/themes/halcyon-syntax',
+  //     },
+  //     {
+  //       title: 'npm',
+  //       route: 'https://www.npmjs.com/package/hyper-halcyon-theme',
+  //     },
+  //   ],
+  //   platformLinks: [
+  //     {
+  //       title: 'GitHub Link',
+  //       icon: 'gitHub',
+  //       route: 'https://github.com/bchiang7/halcyon-site',
+  //     },
+  //     {
+  //       title: 'External Link',
+  //       icon: 'extLink',
+  //       route: 'https://halcyon-theme.netlify.com/',
+  //     },
+  //   ],
+  //   year: 2024,
+  // },
   {
     id: 2,
     title: {

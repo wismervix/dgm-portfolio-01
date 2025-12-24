@@ -102,7 +102,10 @@
         <h3 class="col-title">Skills:</h3>
 
         <div class="transition-all">
-          <h4 class="c-list-title"><span class="sprite tools"><i class="fa-solid fa-screwdriver-wrench"></i></span>Tools</h4>
+          <h4 class="c-list-title">
+            <span class="sprite tools"><i class="fa-solid fa-screwdriver-wrench temp"></i></span
+            >Tools
+          </h4>
           <ul class="skills-list">
             <li>Git + GitHub</li>
             <li>Command Line</li>
@@ -218,8 +221,11 @@
 
       &.tools {
         background-size: 90%;
-        background-image: url(..@/assets/icons/wrencher.png);
-        // background-image: url(..@/assets/icons/repair-tools.png);
+        background-image: url(..@/assets/icons/repair-tools.png);
+
+        .temp {
+          color: white;
+        }
       }
 
       &.design {
@@ -269,7 +275,7 @@
     padding: 10px 10px 0;
     transition: all 0.4s ease;
 
-    &:first-of-type{
+    &:first-of-type {
       padding-top: 0 !important;
     }
 
@@ -278,7 +284,10 @@
       background-color: rgba(30, 41, 59, 0.046);
 
       .c-list-title .sprite.tools {
-        background-image: url(../assets/icons/repair-tools-inverted.png);
+        // background-image: url(../assets/icons/repair-tools-inverted.png);
+        .temp {
+          color: black;
+        }
       }
       .c-list-title .sprite.design {
         background-image: url(../assets/icons/design-inverted.png);

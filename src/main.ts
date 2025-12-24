@@ -13,6 +13,7 @@ import 'bootstrap-vue-next/dist/bootstrap-vue-next.css'
 
 // Import Font Awesome CSS
 import '@fortawesome/fontawesome-free/css/all.min.css'
+import "@fortawesome/fontawesome-free/js/all.js";
 
 const app = createApp(App)
 

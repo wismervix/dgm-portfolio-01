@@ -1,10 +1,12 @@
+// ========================
+// ⬆️ IMPORTS
+// ========================
+@import './variables.scss';
+@import './animation.scss';
+
 // // ========================
 // // 🌌 GLOBAL BODY
 // // ========================
-
-//Add variables import
-@import './variables.scss';
-@import './animation.scss';
 
 *,
 *::before,
@@ -13,6 +15,11 @@
   margin: 0;
   padding: 0;
   font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+}
+
+body {
+  background-color: $secondary !important;
+  transition: background-color 0.3s ease;
 }
 
 a {
@@ -36,19 +43,19 @@ ul {
 section {
   margin: 0 auto;
   padding: 100px 0;
+}
 
-  &:last-of-type .numbered-heading {
-    margin-bottom: 20px;
-    justify-content: center;
-    @include dynamic-text(400, 16px, $primary, var(--font-mono), 1.1);
+main > :last-child section .numbered-heading {
+  margin-bottom: 20px;
+  justify-content: center;
+  @include dynamic-text(400, 16px, $primary, var(--font-mono), 1.1);
 
-    &::before {
-      bottom: 0;
-    }
+  &::before {
+    bottom: 0;
+  }
 
-    &::after {
-      display: none;
-    }
+  &::after {
+    display: none;
   }
 }
 

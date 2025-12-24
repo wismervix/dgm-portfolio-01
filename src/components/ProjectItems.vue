@@ -55,7 +55,7 @@
         <a :href="project.title.route" rel="noopener noreferrer" target="_blank">
           {{ project.title.name }}
         </a>
-        — Health & wellness multi-level platforms.
+        — {{ project.description }}.
       </li>
     </ul>
 
