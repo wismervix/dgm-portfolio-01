@@ -87,7 +87,8 @@ onMounted(() => {
 
   <LoadingSplash v-if="showSplash" />
 
-  <div class="bubbles d-lg-block d-none">
+  <!-- <div class="bubbles d-lg-block d-none"> -->
+  <div class="bubbles d-block">
     <div class="bubble"></div>
     <div class="bubble"></div>
     <div class="bubble"></div>
