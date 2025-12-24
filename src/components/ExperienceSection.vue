@@ -71,7 +71,7 @@
               <span><a href="">@ Ozitech</a></span>
             </h3>
 
-            <p class="range">May 2018 - Present</p>
+            <p class="range">November 2023 - Present</p>
 
             <ul>
               <li class="hover-fade">
