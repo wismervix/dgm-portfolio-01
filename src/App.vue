@@ -99,12 +99,12 @@ onMounted(() => {
 
   <!-- <div class="page-wrapper" :class="{ 'splash-complete': !showSplash/ }"> -->
   <div class="page-wrapper" v-show="contentVisible">
+    <LeftSticky />
+
+    <RightSticky />
+
     <div class="main-content">
       <TheNavbar />
-
-      <LeftSticky />
-
-      <RightSticky />
     </div>
 
     <main>
